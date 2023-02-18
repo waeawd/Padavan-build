@@ -39,7 +39,7 @@ jobs:
     
     - name: Build Firmware
       env:
-        TNAME: K2P-USB
+        TNAME: PSG1218
       run: |
         cd /opt/padavan/trunk
         if [ ! -f configs/templates/$TNAME.config ] ; then
